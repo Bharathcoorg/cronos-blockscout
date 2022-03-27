@@ -1,5 +1,3 @@
-use Config
-
 config :ethereum_jsonrpc, EthereumJSONRPC.RequestCoordinator,
   rolling_window_opts: [
     window_count: 12,
