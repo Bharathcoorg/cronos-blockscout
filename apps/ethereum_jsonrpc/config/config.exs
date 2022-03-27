@@ -1,4 +1,4 @@
-use Mix.Config
+use Config
 
 config :ethereum_jsonrpc, EthereumJSONRPC.RequestCoordinator,
   rolling_window_opts: [
